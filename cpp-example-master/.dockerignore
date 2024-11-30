@@ -1,0 +1,6 @@
+# directories
+src
+
+# files
+.gitignore
+.gitlab-ci.yml

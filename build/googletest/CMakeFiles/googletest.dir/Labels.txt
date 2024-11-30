@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/root/cpp-example-master2/build/googletest/CMakeFiles/googletest
+/root/cpp-example-master2/build/googletest/CMakeFiles/googletest.rule
+/root/cpp-example-master2/build/googletest/CMakeFiles/googletest-complete.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule
+/root/cpp-example-master2/build/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule

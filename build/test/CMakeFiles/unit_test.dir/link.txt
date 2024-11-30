@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/unit_test.dir/test_fraction.cpp.o -o unit_test  ../googletest/googletest-build/googlemock/gtest/libgtest_main.a ../src/libexample.a ../googletest/googletest-build/googlemock/gtest/libgtest.a 
