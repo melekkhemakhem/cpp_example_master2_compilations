@@ -1,0 +1,3 @@
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/googletest.dir
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/ALL_BUILD.dir
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/ZERO_CHECK.dir

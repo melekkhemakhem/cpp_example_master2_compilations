@@ -1,0 +1,10 @@
+^C:\USERS\PC-GAMER\DESKTOP\DEVOPS_CMAKE\CPP-EXAMPLE-MASTER2\BUILD\GOOGLETEST\CMAKEFILES\15B04B68038F495F6F10374DAFE110FB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\cmake-3.31.1-windows-x86_64\cmake-3.31.1-windows-x86_64\bin\cmake.exe" -SC:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest -BC:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/googletest-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

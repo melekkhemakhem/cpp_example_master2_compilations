@@ -1,0 +1,10 @@
+^C:\USERS\PC-GAMER\DESKTOP\DEVOPS_CMAKE\CPP-EXAMPLE-MASTER2\BUILD\CMAKEFILES\AC48BE9EA82C874DBD61D0AC5E8C5B7A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\cmake-3.31.1-windows-x86_64\cmake-3.31.1-windows-x86_64\bin\cmake.exe" -SC:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2 -BC:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/cpp-example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

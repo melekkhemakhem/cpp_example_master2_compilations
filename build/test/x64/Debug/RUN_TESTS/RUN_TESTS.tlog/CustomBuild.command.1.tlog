@@ -1,0 +1,10 @@
+^C:\USERS\PC-GAMER\DESKTOP\DEVOPS_CMAKE\CPP-EXAMPLE-MASTER2\BUILD\CMAKEFILES\0253413E468A64E63E453369B17DC168\RUN_TESTS_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

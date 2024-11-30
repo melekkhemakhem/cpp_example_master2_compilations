@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\PC-Gamer\Desktop\devops_cmake\cpp-example-master2\src\fraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\PC-Gamer\Desktop\devops_cmake\cpp-example-master2\src\fraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PC-Gamer\Desktop\devops_cmake\cpp-example-master2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5A1D8555-9CFD-303D-B5F3-EEFFD3A28FF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{07719833-C743-3614-BC66-1643429BBB12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

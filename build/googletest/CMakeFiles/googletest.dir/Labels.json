@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/googletest"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/15b04b68038f495f6f10374dafe110fb/googletest.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/11176c41a96fb805af7c1a5e50c4a548/googletest-complete.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-build.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-configure.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-download.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-install.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-patch.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-test.rule"
+		},
+		{
+			"file" : "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

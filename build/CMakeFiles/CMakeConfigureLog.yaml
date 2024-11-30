@@ -1,0 +1,447 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+      La génération a démarré 25/11/2024 23:53:35.
+      
+      Projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\3.31.1\\CompilerIdC\\CompilerIdC.vcxproj" sur le noud 1 (cibles par défaut).
+      PrepareForBuild:
+        Création du répertoire "Debug\\".
+        Création du répertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Création de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+        Mise à jour de l'horodatage "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\3.31.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise à jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Génération du projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\3.31.1\\CompilerIdC\\CompilerIdC.vcxproj" terminée (cibles par défaut).
+      
+      La génération a réussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps écoulé 00:00:01.04
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/3.31.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+      La génération a démarré 25/11/2024 23:53:37.
+      
+      Projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\3.31.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par défaut).
+      PrepareForBuild:
+        Création du répertoire "Debug\\".
+        Création du répertoire "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Création de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+        Mise à jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\3.31.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Mise à jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Génération du projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\3.31.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" terminée (cibles par défaut).
+      
+      La génération a réussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps écoulé 00:00:00.78
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/3.31.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-e644xt"
+      binary: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-e644xt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-e644xt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e98ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 25/11/2024 23:53:38.
+        
+        Projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e644xt\\cmTC_e98ba.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_e98ba.dir\\Debug\\".
+          Création du répertoire "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e644xt\\Debug\\".
+          Création du répertoire "cmTC_e98ba.dir\\Debug\\cmTC_e98ba.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_e98ba.dir\\Debug\\cmTC_e98ba.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_e98ba.dir\\Debug\\cmTC_e98ba.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e98ba.dir\\Debug\\\\" /Fd"cmTC_e98ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files (x86)\\cmake-3.31.1-windows-x86_64\\cmake-3.31.1-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32824 pour x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e98ba.dir\\Debug\\\\" /Fd"cmTC_e98ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files (x86)\\cmake-3.31.1-windows-x86_64\\cmake-3.31.1-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e644xt\\Debug\\cmTC_e98ba.exe" /INCREMENTAL /ILK:"cmTC_e98ba.dir\\Debug\\cmTC_e98ba.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-e644xt/Debug/cmTC_e98ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-e644xt/Debug/cmTC_e98ba.lib" /MACHINE:X64  /machine:x64 cmTC_e98ba.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e98ba.vcxproj -> C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e644xt\\Debug\\cmTC_e98ba.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_e98ba.dir\\Debug\\cmTC_e98ba.tlog\\unsuccessfulbuild".
+          Mise à jour de l'horodatage "cmTC_e98ba.dir\\Debug\\cmTC_e98ba.tlog\\cmTC_e98ba.lastbuildstate".
+        Génération du projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e644xt\\cmTC_e98ba.vcxproj" terminée (cibles par défaut).
+        
+        La génération a réussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps écoulé 00:00:00.74
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32824.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-02qqra"
+      binary: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-02qqra"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-02qqra'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6ae44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 25/11/2024 23:53:40.
+        
+        Projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02qqra\\cmTC_6ae44.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_6ae44.dir\\Debug\\".
+          Création du répertoire "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02qqra\\Debug\\".
+          Création du répertoire "cmTC_6ae44.dir\\Debug\\cmTC_6ae44.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_6ae44.dir\\Debug\\cmTC_6ae44.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_6ae44.dir\\Debug\\cmTC_6ae44.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ae44.dir\\Debug\\\\" /Fd"cmTC_6ae44.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\cmake-3.31.1-windows-x86_64\\cmake-3.31.1-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32824 pour x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ae44.dir\\Debug\\\\" /Fd"cmTC_6ae44.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\cmake-3.31.1-windows-x86_64\\cmake-3.31.1-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02qqra\\Debug\\cmTC_6ae44.exe" /INCREMENTAL /ILK:"cmTC_6ae44.dir\\Debug\\cmTC_6ae44.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-02qqra/Debug/cmTC_6ae44.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-02qqra/Debug/cmTC_6ae44.lib" /MACHINE:X64  /machine:x64 cmTC_6ae44.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6ae44.vcxproj -> C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02qqra\\Debug\\cmTC_6ae44.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_6ae44.dir\\Debug\\cmTC_6ae44.tlog\\unsuccessfulbuild".
+          Mise à jour de l'horodatage "cmTC_6ae44.dir\\Debug\\cmTC_6ae44.tlog\\cmTC_6ae44.lastbuildstate".
+        Génération du projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02qqra\\cmTC_6ae44.vcxproj" terminée (cibles par défaut).
+        
+        La génération a réussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps écoulé 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32824.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/googletest/googletest-src/googletest/cmake/internal_utils.cmake:51 (find_package)"
+      - "build/googletest/googletest-src/googletest/CMakeLists.txt:62 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-bla8uv"
+      binary: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-bla8uv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-bla8uv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_91303.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 25/11/2024 23:54:38.
+        
+        Projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\cmTC_91303.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_91303.dir\\Debug\\".
+          Création du répertoire "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\Debug\\".
+          Création du répertoire "cmTC_91303.dir\\Debug\\cmTC_91303.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_91303.dir\\Debug\\cmTC_91303.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_91303.dir\\Debug\\cmTC_91303.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91303.dir\\Debug\\\\" /Fd"cmTC_91303.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\src.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32824 pour x64
+          src.c
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91303.dir\\Debug\\\\" /Fd"cmTC_91303.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\src.c"
+        C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory [C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\cmTC_91303.vcxproj]
+        Génération du projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\cmTC_91303.vcxproj" terminée (cibles par défaut) -- ÉCHEC.
+        
+        ÉCHEC de la build.
+        
+        "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\cmTC_91303.vcxproj" (cible par défaut) (1) ->
+        (ClCompile cible) -> 
+          C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory [C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bla8uv\\cmTC_91303.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps écoulé 00:00:00.99
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/googletest/googletest-src/googletest/cmake/internal_utils.cmake:51 (find_package)"
+      - "build/googletest/googletest-src/googletest/CMakeLists.txt:62 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-00zqxv"
+      binary: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-00zqxv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-00zqxv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b1ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 25/11/2024 23:54:39.
+        
+        Projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\cmTC_7b1ed.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_7b1ed.dir\\Debug\\".
+          Création du répertoire "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\Debug\\".
+          Création du répertoire "cmTC_7b1ed.dir\\Debug\\cmTC_7b1ed.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_7b1ed.dir\\Debug\\cmTC_7b1ed.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_7b1ed.dir\\Debug\\cmTC_7b1ed.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b1ed.dir\\Debug\\\\" /Fd"cmTC_7b1ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32824 pour x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b1ed.dir\\Debug\\\\" /Fd"cmTC_7b1ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\Debug\\cmTC_7b1ed.exe" /INCREMENTAL /ILK:"cmTC_7b1ed.dir\\Debug\\cmTC_7b1ed.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-00zqxv/Debug/cmTC_7b1ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-00zqxv/Debug/cmTC_7b1ed.lib" /MACHINE:X64  /machine:x64 cmTC_7b1ed.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\cmTC_7b1ed.vcxproj]
+        Génération du projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\cmTC_7b1ed.vcxproj" terminée (cibles par défaut) -- ÉCHEC.
+        
+        ÉCHEC de la build.
+        
+        "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\cmTC_7b1ed.vcxproj" (cible par défaut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00zqxv\\cmTC_7b1ed.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps écoulé 00:00:00.85
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/googletest/googletest-src/googletest/cmake/internal_utils.cmake:51 (find_package)"
+      - "build/googletest/googletest-src/googletest/CMakeLists.txt:62 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-oiqbrv"
+      binary: "C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-oiqbrv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-oiqbrv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_10e20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 25/11/2024 23:54:40.
+        
+        Projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\cmTC_10e20.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_10e20.dir\\Debug\\".
+          Création du répertoire "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\Debug\\".
+          Création du répertoire "cmTC_10e20.dir\\Debug\\cmTC_10e20.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_10e20.dir\\Debug\\cmTC_10e20.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_10e20.dir\\Debug\\cmTC_10e20.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10e20.dir\\Debug\\\\" /Fd"cmTC_10e20.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32824 pour x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10e20.dir\\Debug\\\\" /Fd"cmTC_10e20.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\Debug\\cmTC_10e20.exe" /INCREMENTAL /ILK:"cmTC_10e20.dir\\Debug\\cmTC_10e20.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-oiqbrv/Debug/cmTC_10e20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/CMakeFiles/CMakeScratch/TryCompile-oiqbrv/Debug/cmTC_10e20.lib" /MACHINE:X64  /machine:x64 cmTC_10e20.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\cmTC_10e20.vcxproj]
+        Génération du projet "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\cmTC_10e20.vcxproj" terminée (cibles par défaut) -- ÉCHEC.
+        
+        ÉCHEC de la build.
+        
+        "C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\cmTC_10e20.vcxproj" (cible par défaut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\\Users\\PC-Gamer\\Desktop\\devops_cmake\\cpp-example-master2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiqbrv\\cmTC_10e20.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps écoulé 00:00:00.49
+        
+      exitCode: 1
+...

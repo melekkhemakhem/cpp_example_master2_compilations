@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/googletest
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/15b04b68038f495f6f10374dafe110fb/googletest.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/11176c41a96fb805af7c1a5e50c4a548/googletest-complete.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-build.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-configure.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-download.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-install.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-mkdir.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-patch.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-test.rule
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/CMakeFiles/24504bbc35dfc1aaed004d483fc40474/googletest-update.rule

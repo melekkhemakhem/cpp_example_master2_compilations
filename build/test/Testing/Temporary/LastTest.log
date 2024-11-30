@@ -1,0 +1,19 @@
+Start testing: Nov 26 00:14 Paris, Madrid
+----------------------------------------------------------
+Unable to find executable: C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/unit_tests
+1/1 Testing: unit
+1/1 Test: unit
+Command: ""
+Directory: C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/test
+"unit" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit" end time: Nov 26 00:14 Paris, Madrid
+"unit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 26 00:14 Paris, Madrid

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/cmake-3.31.1-windows-x86_64/cmake-3.31.1-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake
+C:/Users/PC-Gamer/Desktop/devops_cmake/cpp-example-master2/build/googletest/googletest-src/googlemock/CMakeLists.txt
